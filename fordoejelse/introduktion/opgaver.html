@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<title>Fordøjelse</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../../../library/css/styles.css" type="text/css" />
+    <script src="../../../library/vendor_scripts.js"></script>
+    <script src="../../../library/custom_scripts.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<h1>Opgaver: Intro til fordøjelse</h1>
+			<div class="instruction"></div>
+	        <div class="col-xs-8">
+
+	        <span class="PagerContainer"></span>
+	        <div class="ovelse">
+	        	<h2>Opgave 1</h2>
+				<iframe class="iframed" width="574" height="574" src="opgave_1/hvorfor_spiser_vi.htm" style="border:none"></iframe>
+			</div>
+			
+			<div class="ovelse">
+				<h2>Opgave 2</h2>
+				<iframe class="iframed" width="574" height="574" src="opgave_2/opgave_2.htm" style="border:none"></iframe>
+			</div>
+
+			<div class="ovelse">
+				<h2>Opgave 3</h2>
+				<iframe class="iframed" width="574" height="574" src="opgave_3/opgave_3.htm" style="border:none"></iframe>
+			</div>
+
+			<div class="ovelse">
+				<h2>Opgave 4</h2>
+				<iframe class="iframed" width="574" height="574" src="opgave_4/opgave_4.htm" style="border:none"></iframe>
+			</div>
+
+			<script>
+        	$('.instruction').append(instruction("Her kan du teste din viden om fordøjelsessystemet"));
+        	one_line_footer();
+        	</script>
+        	<script type="text/javascript">
+            var pagerObj = Object.create(pagerClass);
+            pagerObj.init(".PagerContainer", ".ovelse");
+            </script>
+
+			</div>
+	</div>
+</body>
+</html>

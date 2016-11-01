@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<title>Fordøjelse - Mavesækken</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../../../library/css/styles.css" type="text/css" />
+    <script src="../../../library/vendor_scripts.js"></script>
+    <script src="../../../library/custom_scripts.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<h1>Mavesækken</h1>
+			<div class="instruction"></div>
+	        <div class="col-xs-8">
+
+	        <span class="PagerContainer"></span>
+	        <div class="ovelse">
+				<h2>Video</h2>
+				<iframe src="https://player.vimeo.com/video/38029595?color=44b2d8&byline=0&portrait=0" width="500" height="381" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+
+			<div class="ovelse">
+				<h2>Figur</h2>
+				<p>Fra spiserøret kommer maden ned i mavesækken. Mavesækken indeholder saltsyre der dræber de bakterier der er i maden, så de ikke angriber vores krop og gør os syge.</p>
+				<p>I maven er der også enzymer der kemisk nedbryder det protein der er i maden til polypetider (kortere proteinkæder).De enzymer der nedbryder protein vil gerne have det surt og det er endnu en grund til at vi har mavesyre.</p>
+				<img src="intro/maven.jpg" alt="">
+			</div>
+
+			<div class="ovelse">
+				<h2>Opgave 1</h2>
+				<iframe class="iframed" width="750" height="422" src="opgave_1/mavesaekken_1.htm" style="border:none"></iframe>
+			</div>
+
+			<div class="ovelse">
+				<h2>Opgave 2</h2>
+				<iframe class="iframed" width="750" height="422" src="opgave_2/mavesaekken_2.htm" style="border:none"></iframe>
+			</div>
+
+
+			<script>
+        	$('.instruction').append(instruction("Hvorfor har vi syre i maven, og hvilke dele af maden bliver nedbrudt i maven?"));
+        	one_line_footer();
+        	</script>
+        	<script type="text/javascript">
+            var pagerObj = Object.create(pagerClass);
+            pagerObj.init(".PagerContainer", ".ovelse");
+            </script>
+
+		</div>
+	</div>
+</body>
+</html>
